@@ -1,7 +1,9 @@
-/* Manejo de data */
 
-// esta es una función de ejemplo
+import POKEMON from './data/pokemon/pokemon.js';
 
-export const example = () => {
-  return 'example';
-};
+
+export function filtrarPorTipoPokemon (TipoSeleccionado) {
+const TipoPokemonFiltrado = POKEMON.filter (pokemon => (pokemon.type==TipoSeleccionado))
+
+return TipoPokemonFiltrado;
+}

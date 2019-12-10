@@ -1,15 +1,14 @@
-/**
- * import POKEMON from './data/pokemon/pokemon.js'
- * import LoL from './data/lol/lol.js'
- * import POTTER from './data/potter/potter.js'
- */
 
-import { example } from './data.js';
+import {filtrarPorTipoPokemon} from './data.js';
 
-console.log(example);
+var seleccionTipo=document.getElementById('seleccion');
+seleccionTipo.addEventListener('change',function(){
+    let indexSeleccionado=seleccionTipo.selectedIndex 
+    let valorIndexSeleccionado= seleccionTipo.children[indexSeleccionado].innerHTML.trim();
+    let resultadoSeleccionTipo=filtrarPorTipoPokemon(valorIndexSeleccionado); 
+    crearTabla(resultadoSeleccionTipo);
+});
 
-/*
- * console.log(POKEMON);
- * console.log(LoL);
- * console.log(POTTER)
-*/
+function crearTabla (resultadoSeleccionTipo){
+    console.table(resultadoSeleccionTipo);
+};

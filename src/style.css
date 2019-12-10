@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("fondo-page.jpg");
+    
+}
+
+.logo{
+    margin-bottom: 10px;
+    height: 1500px;
+    width:100%; 
+   
+}
+
+.menu{
+    margin:0;
+    padding: 0;
+
+}
+
+header nav {
+   background: gray;
+   margin-bottom: 10px;
+   font-size: 30px;
+   width:100%; 
+   display: flex;
+   justify-content: center;
+   
+}
+
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a{
+    display: block;
+    padding: 20px;
+    color: white;
+    border: 1px black inset;
+    outline: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background: blue;
+}
+
+.menu-fixed {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.juego{
+    width: 800px;
+    height: 100px;
+    align-items: center;
+
+}
