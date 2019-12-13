@@ -212,18 +212,17 @@ nav{
 
 .sectionGuerrero{
     border: 3px solid blue;
-}
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    align-items: space-around;
 
-#maestroGuerrero{
-    
-
-}
-
-#oredenarDebilidades{
-    
 
 }
 
-.hijotres{
+
+.hijoTres{
     border: 2px solid purple;
+    
 }
