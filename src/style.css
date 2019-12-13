@@ -32,7 +32,7 @@ nav{
 }
 @media (max-width:600px) {
     nav{
-        background: black;
+        background: silver;
         flex-direction: column;   
     }
     .menu-nav{
@@ -40,7 +40,7 @@ nav{
     }
 }
 .section{
-   border: 2px solid blue;
+   
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -63,6 +63,7 @@ nav{
     height: 40px;
     font-size: 100%;
     background: #FFDD2C;
+    border-radius: 40px;
 }
 .button:hover{
     background: #28CEB0;
@@ -76,9 +77,13 @@ nav{
     align-items: center;
 }
 #explicacion{
+    padding: 15px;
     background:white;
-   font-size: xx-large;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 #recolector{
     display: flex;
     justify-content: center;
@@ -164,6 +169,7 @@ nav{
     flex: 1 1 auto;
     display: flex;
     justify-content: center; 
+    margin:0auto;
     overflow-y:scroll; 
 }
 #tamañoTabla{
@@ -221,9 +227,8 @@ nav{
 
 #oredenarDebilidades{
     
-
 }
 
-.hijotres{
-    border: 2px solid purple;
+#palabraMenu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
