@@ -64,6 +64,8 @@ nav{
     font-size: 100%;
     background: #FFDD2C;
     border-radius: 40px;
+    color:#031A97;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .button:hover{
     background: #28CEB0;
@@ -83,6 +85,14 @@ nav{
    color:#031A97;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#explicacionTipo{
+    padding: 45px;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 
 #recolector{
     display: flex;
@@ -144,7 +154,7 @@ nav{
     color: white;
      font-size: 17px;
      background-color: #28CEB0;
-     width: 120px;
+     width: 170px;
      height: 35px;
   }
   h1{
@@ -153,7 +163,6 @@ nav{
       font-display: center;
   }
   .tiposPokemon{
-    border: 2px solid blue;
     display: flex;
    flex-direction: row;
    flex-direction: column; 
@@ -161,15 +170,15 @@ nav{
    align-content: space-around;
   }
   #hijoDos{
-    border: 2px solid red;
     width: 500px;
     height: 300px;
-    margin: 30px;
-    padding: 20px;
+    /*margin: 30px;
+    padding: 20px;*/
     flex: 1 1 auto;
     display: flex;
     justify-content: center; 
     margin:0auto;
+    background-color: ghostwhite;
     overflow-y:scroll; 
 }
 #tamañoTabla{
@@ -190,12 +199,10 @@ nav{
     align-items: center;
 }
 .tituloTipos{
-    border: 2px solid purple;
     margin: 20px;
     padding: 20px;
 }
 .buscadorTipos{
-    border: 2px solid purple;
     margin: 2px;
     padding: 20px;
     display: flex;
@@ -217,7 +224,6 @@ nav{
 }
 
 .sectionGuerrero{
-    border: 3px solid blue;
     display: flex;
     justify-content: center;
     flex-direction: column; 
@@ -235,4 +241,22 @@ nav{
 
 #palabraMenu{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#palabraMenuTipo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#031A97;
+    font-size: 20px;
+}
+
+#tituloSecundario{
+    margin:0 auto;
+}
+
+table, th, td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#031A97;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
 }

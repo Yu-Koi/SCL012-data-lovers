@@ -12,10 +12,7 @@ function tabla(resultado){
     `   <div class="buscarTipos" id="poke">
             <table id="tamañoTabla">
                 <thead>
-                    <tr>
-                        <td style="background-color:blue;">Nombre</td>
-                        <td style="background-color:blue;">Imagen</td>
-                    </tr>
+                    
                 </thead>
                 <tbody>
                     ${resultado.map(resultado => ` 
@@ -24,7 +21,7 @@ function tabla(resultado){
                                 ${resultado.name}
                             </td> 
                             <td>
-                                <img src="${resultado.img}" height="42" width="42">
+                                <img src="${resultado.img}" height="100" width="100">
                             </td>
                         </tr>`)}
                 </tbody>
