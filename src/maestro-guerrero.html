@@ -15,27 +15,62 @@
         </div>
         <div class="menu">
             <nav>
-            <a href="index.html" class="menu-nav">Inicio</a>
-            <a href="tipos.html" class="menu-nav">Tipos de Pokemomes</a>
-            <a href="top.html" class="menu-nav">Top 10 de Aparicion</a>
-            <a href="captura.html" class="menu-nav">Captura de Pokemones</a>
+                <a href="index.html" class="menu-nav"><p id="palabraMenu">Inicio</p></a>
+                <a href="tipos.html" class="menu-nav"><p id="palabraMenu">Tipos de Pokemomes</p></a>
+                <a href="top.html" class="menu-nav"><p id="palabraMenu">Top 10 de Aparicion</p></a>
+                <a href="captura.html" class="menu-nav"><p id="palabraMenu">Captura de Pokemones</p></a>
             </nav>
         </div>
     </header>
-    <section class="sectionGuerrero">
-        <div class="hijoTres">
-        <h1>MAESTRO GUERRERO</h1>
-        <p>DESCRIPCION</p>
+    <section class="section">
+        <div  class="hijo" id="descripcion-poder-texto">
+            <p id="palabraMenu">Existen una gran cantidad de Pokémon y muchos de ellos son realmente poderosos, 
+              pero solo unos pocos tienen la capacidad de alcanzar un poder que llegue a asustar a los 
+              entrenadores rivales. Los pokémon legendarios son los más importantes, pero existen otros de 
+              orígenes más humildes. Los Pokémon legendarios son fuentes de poder infinito, 
+              criaturas mitológicas que, en muchos casos han moldeado el mundo de Pokémon. 
+              Sin embargo, existen muchos otros pokémon de categoría "inferior" los cuales 
+              podrían hacerles frente sin despeinarse mucho.</p>
         </div>
-        <div class="hijoTres">
-        <p>Ordena por:</p>
-            <select name="ordenarPor" id="ordenar">
+
+        <div class="hijo" id="info-app">
+            <div id="explicacion">
+              <img src="pikapika.jpeg" height="200" width="500">
+            </div>
+            <button onclick="location.href='https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=en'" id="buttonDescargar" class="button">VER RANKING</button>
+        </div>
+
+        <div class="hijopoder" id="selectPoder">
+        <div class="hijoDos" id="select">
+            <div id="seleccionPoderDev">
+              <h1>Ordenar por:</h1>
+            </div>
+            <select  class="seleccion" name="ordenarPor" id="ordenar">
                 <option value=""></option>
-                <option value="fuertes">Más fuertes</option>
-                <option value="debiles">Más débiles</option>
+                  <option value="fuertes">Más fuertes</option>
+                  <option value="debiles">Más débiles</option>
             </select>
         </div>
+
+        <div class="hijotablapoder" id="tablapoderdespliegue">
+           <div id="hijoGuerrero">
+
+           </div>
+        </div>
+        
+        
+
+
+       
+          
+        
       </section>
+     
+    <footer></footer>
+
+
+
+    
     <footer></footer>
     <script type="module" src="debilidades.js"></script>
   </body>
