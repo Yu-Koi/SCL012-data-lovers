@@ -10,7 +10,7 @@ Un adulto joven quiere volver a jugar Pokemón Go, aplicación que tiene instala
 Principales usuarios
 Personas jóvenes de cualquier sexo que sean principiantes en la app Pokemon Go.
 
-Objetivo principal
+Objetivo principal.
 Lograr que los jugadores principiantes eligan nuestro sitio web como plataforma para introducirse a la app Pokemon Go.
 
 Investigación
