@@ -8,30 +8,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="logo-page.jpg" alt="">
-        <nav class="menu">
-          <ul>
-            <li><a href="index.html" id="inicio">Inicio</a></li>
-            <li><a href="tipos.html">Tipos de Pokemomes</a></li>
-            <li><a href="top.html">Top 10 de Aparicion</a></li>
-            <li><a href="captura.html">Captura de Pokemones</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="juego" id="pokemon">
-          <img src="pokemon.png" alt="">
-      </div>
-  
-      <div class="juego" id="explicacion">
-              <img src="pokemon.png" alt="">
-      </div>
-      <div id="root"></div>
+      <div class="contenedor"> 
+    <header class="header">
+        <div class = "logo">
+            <img src="logo-maestro.png" alt="" id=maestro-poke>
+        </div>
+        <div class="menu">
+            <nav>
+            <a href="index.html" class="menu-nav">Inicio</a>
+            <a href="tipos.html" class="menu-nav">Tipos de Pokemomes</a>
+            <a href="top.html" class="menu-nav">Top 10 de Aparicion</a>
+            <a href="captura.html" class="menu-nav">Captura de Pokemones</a>
+            </nav>
+        </div>
     </header>
-    <section></section>
+    <section class="section">
+        
+        <div  class="hijo" id="logo-app">
+            <img src="redondo.png" id="logo-maestros">
+        </div>
+        <div class="hijo" id="info-app">
+            <div id="explicacion">
+              <h1>POKEMON GO</h1>
+              <p>El juego lleva la serie de Pokémon a la vida real a través del GPS y la realidad aumentada. 
+                Los jugadores recorren las calles de su ciudad en busca de los pokémon y gimnasios Pokémon en 
+              donde además de entrenar, pueden realizar batallas</p>
+            </div>
+            <button onclick="location.href='https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=en'" id="buttonDescargar" class="button">DESCARGAR POKEMON GO</button>
+        </div>
+        <div class="hijo" id="recolector">
+            <img src="Maestro-Recolector.png" id="logo-maestros">
+            <button onclick="location.href='maestro-recolector.html'" id="buttonRecolector" class="button">MAESTRO RECOLECTOR</button>
+        </div>
+        <div class="hijo" id="guerrero" >
+            <img src="Maestro-Guerrero.png" id="logo-maestros">
+            <button onclick="location.href='maestro-guerrero.html'" id="buttonGuerrero" class="button">MAESTRO GUERRERO</button>
+        </div>
+          
+    </section>
     <footer></footer>
+  </div>
     <script type="module" src="main.js"></script>
   </body>
 </html>
-

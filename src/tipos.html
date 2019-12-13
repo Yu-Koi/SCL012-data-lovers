@@ -8,43 +8,54 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-        <div class="logo">
-            <img src="logo-page.jpg" alt="">
-            <nav class="menu">
-                <ul>
-                    <li><a href="index.html" id= "inicio">Inicio</a></li>
-                    <li><a href="tipos.html">Tipos de Pokemomes</a></li>
-                    <li><a href="top.html">Top 10 de Aparición</a></li>
-                    <li><a href="captura.html">Captura de Pokemones</a></li>
-                 </ul>
+      <div class="contenedor"> 
+    <header class="header">
+        <div class = "logo">
+            <img src="logo-maestro.png" alt="" id=maestro-poke>
+        </div>
+        <div class="menu">
+            <nav>
+            <a href="index.html" class="menu-nav">Inicio</a>
+            <a href="tipos.html" class="menu-nav">Tipos de Pokemomes</a>
+            <a href="top.html" class="menu-nav">Top 10 de Aparicion</a>
+            <a href="captura.html" class="menu-nav">Captura de Pokemones</a>
             </nav>
         </div>
     </header>
-    <section>
-            <select name="seleccion" id="seleccion">
-                <option value="Selecciona">Selecciona</option>
-                <option value="Water">Water</option>
-                <option value="Bug">Bug</option>
-                <option value="Fire">Fire</option>
-                <option value="Flying">Flying</option>
-                <option value="Poison">Poison</option>
-                <option value="Normal">Normal</option>
-                <option value="Grass">Grass</option>
-                <option value="Grass">Ice</option>
-                <option value="Grass">Psychic</option>
-                <option value="Grass">Ground</option>
-                <option value="Grass">Rock</option>
-                <option value="Grass">Electric</option>
-                <option value="Grass">Fighting</option>
-                <option value="Grass">Fairy</option>
-                <option value="Grass">Ghost</option>
-                <option value="Grass">Dark</option>
-                <option value="Grass">Steel</option>
-                <option value="Grass">Dragon</option>
-            </select>    
-    </section>
+    <section class="tiposPokemon">
+      <div class="hijoDos" id="select">
+        <div class="tituloTipos">
+        <h1>TIPOS DE POKEMONES</h1>
+      </div>
+      <div class="buscadorTipos">
+        <p>Busca por tipo:</p>
+        <select  class="seleccion" name="seleccion" id="seleccion">
+            <option value="Selecciona">Selecciona</option>
+            <option value="Water">Water</option>
+            <option value="Bug">Bug</option>
+            <option value="Fire">Fire</option>
+            <option value="Flying">Flying</option>
+            <option value="Poison">Poison</option>
+            <option value="Normal">Normal</option>
+            <option value="Grass">Grass</option>
+            <option value="Grass">Ice</option>
+            <option value="Grass">Psychic</option>
+            <option value="Grass">Ground</option>
+            <option value="Grass">Rock</option>
+            <option value="Grass">Electric</option>
+            <option value="Grass">Fighting</option>
+            <option value="Grass">Fairy</option>
+            <option value="Grass">Ghost</option>
+            <option value="Grass">Dark</option>
+            <option value="Grass">Steel</option>
+            <option value="Grass">Dragon</option>
+        </select> 
+      </div>
+    </div>   
+    <div id="hijoDos">
+    </div>
+  </section>
     <footer></footer>
-    <script type="module" src="main.js"></script>
+    <script type="module" src="tipos.js"></script>
   </body>
 </html>
