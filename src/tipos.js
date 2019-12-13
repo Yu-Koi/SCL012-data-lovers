@@ -21,7 +21,7 @@ function tabla(resultado){
                                 ${resultado.name}
                             </td> 
                             <td>
-                                <img src="${resultado.img}" height="100" width="100">
+                                <img src="${resultado.img}" height="150" width="150">
                             </td>
                         </tr>`)}
                 </tbody>

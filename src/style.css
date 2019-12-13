@@ -225,7 +225,7 @@ nav{
    align-content: space-around;
   }
   #hijoDos{
-    margin: 0 auto;
+    margin-left: 577px;
     /* float: right; */
     width: 500px;
     height: 300px;
