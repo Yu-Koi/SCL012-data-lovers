@@ -6,74 +6,251 @@
 }
 
 body{
-    background-image: url("fondo-page.jpg");
-    
+    background-image: url("fondo-page.jpg"); 
 }
 
 .logo{
-    margin-bottom: 10px;
-    height: 1500px;
-     
-}
-
-.maestro{
+    display: inline-block;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin:0;
-    padding: 0;
-
-}
-
-header nav {
-   background: gray;
-   margin-bottom: 10px;
-   font-size: 30px;
-   width:100%; 
-   display: flex;
-   justify-content: center;
    
 }
 
-header nav ul{
-    list-style: none;
-    overflow: hidden;
-}
-
-header nav ul li {
-    float: left;
-}
-
-header nav ul li a{
-    display: block;
-    padding: 20px;
-    color: white;
-    border: 1px black inset;
-    outline: black;
+.menu-nav{
+    background:  rgb(9, 156, 129);
+    color:white;
+    font-size: 130%;
+    padding: 15px 30px;
+    display: inline-block;
     text-decoration: none;
 }
 
-header nav ul li a:hover{
-    background: blue;
+.menu-nav:hover{
+    background: #00918e;
 }
 
-.menu-fixed {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 90%;
-    max-width: 1000px;
-}
-
-.juego{
-    width: 900px;
-    height: 300px;
+nav{
+    background:  #28CEB0;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start; 
-    align-content: flex-start;
+}
+
+@media (max-width:600px) {
+    nav{
+        background: black;
+        flex-direction: column;   
+    }
+    .menu-nav{
+    margin: 10px 0;
+    }
+}
+
+.section{
+   border: 2px solid blue;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: space-around;
+}
+
+.hijo{
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+#logo-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.button{
+    width: 80%;
+    height: 40px;
+    font-size: 100%;
+    background: #FFDD2C;
+}
+
+.button:hover{
+    background: #28CEB0;
+  }  
+
+#info-app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
 
 }
+
+#explicacion{
+    background:white;
+   font-size: xx-large;
+}
+
+#recolector{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+#guerrero{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo-maestros{
+    height: 90%;
+    
+}
+
+@media (max-width:600px) {
+    .section{
+        flex-direction: column;   
+    }
+    .hijo{
+    margin: 10px 0;
+    }
+}
+
+#button-search-name{
+    background: #FFDD2C;
+    width: 10%;
+    height: 30px;
+
+}
+#button-search-name:hover{
+    background: #28CEB0;
+  }  
+
+  #name-entered{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+  }
+
+  .hijo-recolector{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .recolectar{
+      border: 2px solid blue;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .titulos{
+
+  }
+
+  .seleccion{
+    border: 3px solid #28CEB0;
+    color: white;
+     font-size: 17px;
+     background-color: #28CEB0;
+     width: 120px;
+     height: 35px;
+  }
+
+  h1{
+      font-style: Bungee;
+      color: #031A97;
+      font-display: center;
+  }
+
+  .tiposPokemon{
+    border: 2px solid blue;
+    display: flex;
+   flex-direction: row;
+   flex-direction: column; 
+   flex-wrap: wrap;
+   align-content: space-around;
+  }
+
+  #hijoDos{
+    border: 2px solid red;
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+    padding: 20px;
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center; 
+    overflow-y:scroll; 
+}
+
+#tamañoTabla{
+    width:300px;
+}
+
+
+
+
+@media (max-width:600px) {
+    .tiposPokemon{
+        flex-direction: column;   
+    }
+    .hijoDos{
+    margin: 10px 0;
+    }
+}
+
+#select{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+
+.tituloTipos{
+    border: 2px solid purple;
+    margin: 20px;
+    padding: 20px;
+}
+
+.buscadorTipos{
+    border: 2px solid purple;
+    margin: 2px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#poke{
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    margin-top:30px;  
+}
+
+#poder{
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    margin-top:30px;
+    
+}
+
+
 
 
