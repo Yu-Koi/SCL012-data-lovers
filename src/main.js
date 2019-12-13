@@ -1,7 +1,5 @@
 import POKEMON from './data/pokemon/pokemon.js'
 console.log(POKEMON);
-
-
 //llamo al botton buscar
 const btnBuscar = document.getElementById("button-search-name");
 //llamo al en¡vento de click del botton y le indico que ejcute la funcion
@@ -19,7 +17,6 @@ btnBuscar.addEventListener("click", function() {
     }
     console.log(nameSearched);
     let divPokeIndividual = ` 
-
          <div class="buscarTipos" id="poke">
             <table id="tamañoTabla">
                 <thead>
@@ -43,19 +40,13 @@ btnBuscar.addEventListener("click", function() {
         </div>
     
     `;
-
     let divPoke = document.createElement('divPokeIn');
     divPoke.innerHTML = divPokeIndividual;
     document.getElementById("hijo-recolector").appendChild(divPoke);
 })
-
-
-
 //.....................
 //OTRA FORMA CON FILTER
-
 //const btnBuscar = document.getElementById("search-name");   
-
 let nameSearched = POKEMON.filter(elemento => (elemento.name === "Pikachu"));
 console.log(nameSearched)
     //btnBuscar.addEventListener("click", function() {
@@ -68,4 +59,3 @@ console.log(nameSearched)
 // })
 // btnBuscar.addEventListener("click", nameSearched);
 // console.log(nameSearched);
-
