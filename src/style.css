@@ -207,6 +207,23 @@ nav{
     width:300px;
     height:300px;
     margin:0 auto;
-    margin-top:30px;
+    margin-top:30px; 
+}
+
+.sectionGuerrero{
+    border: 3px solid blue;
+}
+
+#maestroGuerrero{
     
+
+}
+
+#oredenarDebilidades{
+    
+
+}
+
+.hijotres{
+    border: 2px solid purple;
 }
