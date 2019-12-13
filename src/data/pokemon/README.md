@@ -44,6 +44,8 @@ A partir de una research entregada se seleccionaron algunos hallazgos correspond
 Entrevista a potencial usuario
 Se realizó una entrevista a un usuario objetivo para identificar sus necesidades y contrastarlas con los hallazgos del research, para posteriormente, dar origen a las historias de usuario.
 
+![entrevista](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/entrevista%20pokemon.m4a)
+
 Historias de usuario
 Se realizó una historia de usuario por cada interfaz del sitio web, para planificar mejor la división de tareas y el desarrollo del código. La herramienta de planificación utilizada fue Trello.
 
@@ -66,10 +68,19 @@ a) Prototipos de baja fidelidad (wireframes)
 - Sketch a mano alzada
 Fue el primer acercamiento a la ideal producto y se realizó en conjunto con un usuario, de tal forma de ir iterando desde el momento inicial. Fue así como se consiguió un sketch que satisfacía, en gran parte, sus requerimientos en cuanto a, contenido, aspecto visual y funcionalidad.
 
-![Sketch]()
+![Sketch](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/boseto1.png)
+![Sketch](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/boseto2.png)
 
 - Balsamiq
 El sketch de lápiz y papel fue llevado a Balsamiq, en donde de, forma simple y muy rápida se logró un diseño estático más acabado, en blanco y negro y que mostraba el orden y estructura de los contenidos. En la iteración no hubo cambios, porque era una simple copia del sketch.
+
+![balsamiq](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/balsamiq1.png)
+![balsamiq](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/balsamiq2.png)
+![balsamiq](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/balsamiq3.png)
+![balsamiq](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/balsamiq4.png)
+![balsamiq](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/balsamiq5.png)
+![balsamiq](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/balsamiq6.png)
+![balsamiq](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/balsamiq7.png)
 
 a) Prototipos de alta fidelidad (mockup)
 
@@ -81,10 +92,12 @@ Se utilizó esta herramienta para potenciar el diseño visual y el nivel de inte
 2. Iteración de Prototipo de alta fidelidad: 
 Antes de presentar el proyecto digital al usuario, se iteró el diseño visual con las compañeras de squad, quienes evaluaron aspectos técnicos como: proximidad, repetición, alineación, contraste, tipografía y color. Las observaciones entregadas fueron: que el header (logo y menú de navegación) tuviese el ancho de la interfaz, que transformar el acceso a "maestro recolector" y "maestro guerrero" en botones y que alineara el contenido hacia la izquierda.
 
+![paginainicioantes](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/pagina%20de%20inicio%201.png)
+![paginainiciodespues](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/pagina%20de%20inicio%20final.png)
+
 Posteriormente, se iteró con el usuario, quien solo realizó el requerimiento de cambiar el color del menú de navegación a un color claro que armonizase con los colores ya presentes. Por lo que se escogió una tonalidad del color turquesa. 
 
 Una vez realizadas todas las modificaciones en Figma, se entregó la propuesta final al usuario, quien aprobó el diseño visual en su totalidad.
-
 
 3. Diseño de interfaz: 
 A continuación se irán describiendo los aspectos de diseño visual respecto del futuro producto digital.
@@ -105,7 +118,11 @@ El uso del contraste no interfiere en la legibilidad del sitio web. La imagen de
 Para el logo se utilizó tipografía solid con estilo Pokemon para evocar la recordada serie. En los títulos se usó la fuente Bungee regular, que se utiliza bastante en el contexto urbano, por lo que se relaciona con el ambiente en donde se da la dinámica del juego Pokemon Go. En el menú de navegación de empleó la fuente sans serif de tipo gótica llamada JejuGothic en color blanco y minúscula, ya que esta parte del sitio web se comporta solo como un complemento de información general. Para los subtítulos y párrafos también se utilizó JejuGothic en color azul para fomentar una fácil lectura. Los títulos al tener una fuente distinta al demás contenido adquieren el protagonismo deseado.
 
 - Color: 
-Se eligieron los tonos bases (azul y amarillo) por ser los colores característicos de la serie Pokemon, y de acuerdo a ellos se buscó una paleta cromática similar a ésta: FALTAAAAAA FOTOOOOOOOO. El logo tiene los colores distintivos de Pokemon. El menú de navegación posee un tono turquesa para ir en armonía con el fondo y su fuente está en color blanco para robar el protagonismo del contenido principal. Los textos de la sección principan están en azul para lograr un contraste con el fondo. Y se le designó color amarillo a los botones, para marcar la funcionalidad, a modo de estimular la interacción. Con respecto a la psicología del color, el tono turquesa y azul en conjunto, crean un ambiente de calma, seguridad, confianza y armonía que invita a un jugador principiante a adentrase a la app Pokemon Go haciendo uso de nuestro sitio web. Todos los colores empleados no fatigan visualmente y reafirman el mensaje que se quiere trasmitir, que es contagiar de entusiasmo y energía positiva a la hora de aprender a jugar Pokemon Go. 
+Se eligieron los tonos bases (azul y amarillo) por ser los colores característicos de la serie Pokemon, y de acuerdo a ellos se buscó una paleta cromática similar a ésta: 
+
+![Paleta de colores](https://github.com/vicencio-tech/SCL012-data-lovers/blob/master/img/paleta%20de%20colores.png)
+
+El logo tiene los colores distintivos de Pokemon. El menú de navegación posee un tono turquesa para ir en armonía con el fondo y su fuente está en color blanco para robar el protagonismo del contenido principal. Los textos de la sección principan están en azul para lograr un contraste con el fondo. Y se le designó color amarillo a los botones, para marcar la funcionalidad, a modo de estimular la interacción. Con respecto a la psicología del color, el tono turquesa y azul en conjunto, crean un ambiente de calma, seguridad, confianza y armonía que invita a un jugador principiante a adentrase a la app Pokemon Go haciendo uso de nuestro sitio web. Todos los colores empleados no fatigan visualmente y reafirman el mensaje que se quiere trasmitir, que es contagiar de entusiasmo y energía positiva a la hora de aprender a jugar Pokemon Go. 
 
 4.  Test de usabilidad
 
