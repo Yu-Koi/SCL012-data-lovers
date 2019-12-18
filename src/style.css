@@ -32,7 +32,7 @@ nav{
 }
 @media (max-width:600px) {
     nav{
-        background: black;
+        background: silver;
         flex-direction: column;   
     }
     .menu-nav{
@@ -40,7 +40,7 @@ nav{
     }
 }
 .section{
-   border: 2px solid blue;
+   
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -53,16 +53,54 @@ nav{
     padding: 20px;
     flex: 1 1 auto;
 }
+
+.hijopoder{
+    padding-top: 200px;
+    width: 100%;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.hijotablapoder{
+    padding-top: 200px;
+    width: 500px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.tablapoderdespliegue{
+    padding-top: 200px;
+    width: 500px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+
+
 #logo-app{
     display: flex;
     justify-content: center;
     align-items: center;   
 }
+
+#descripcion-poder-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    margin-top: 72px;
+    color:#031A97;
+}
+
 .button{
     width: 80%;
     height: 40px;
     font-size: 100%;
     background: #FFDD2C;
+    border-radius: 40px;
+    color:#031A97;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .button:hover{
     background: #28CEB0;
@@ -76,9 +114,29 @@ nav{
     align-items: center;
 }
 #explicacion{
+    padding: 15px;
     background:white;
-   font-size: xx-large;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+#explicacionTipo{
+    padding: 45px;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#seleccionPoderDev{
+    margin-top: -70px;
+    padding: 45px;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 #recolector{
     display: flex;
     justify-content: center;
@@ -87,6 +145,18 @@ nav{
     flex-direction: column;
     align-items: center;
 }
+
+#selectPoder{
+    border:solid back;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 #guerrero{
     display: flex;
     justify-content: center;
@@ -138,7 +208,7 @@ nav{
     color: white;
      font-size: 17px;
      background-color: #28CEB0;
-     width: 120px;
+     width: 170px;
      height: 35px;
   }
   h1{
@@ -149,7 +219,6 @@ nav{
       font-size: 60px;
   }
   .tiposPokemon{
-    border: 2px solid blue;
     display: flex;
    flex-direction: row;
    flex-direction: column; 
@@ -157,16 +226,32 @@ nav{
    align-content: space-around;
   }
   #hijoDos{
-    border: 2px solid red;
+    margin-left: 577px;
+    /* float: right; */
     width: 500px;
     height: 300px;
-    margin: 30px;
-    padding: 20px;
+    /*margin: 30px;
+    padding: 20px;*/
     flex: 1 1 auto;
     display: flex;
     justify-content: center; 
+    margin:0auto;
+    background-color: ghostwhite;
     overflow-y:scroll; 
 }
+
+#hijoDos{
+    width: 300px;
+    height: 300px;
+    /*margin: 30px;
+    padding: 20px;*/
+    justify-content: center; 
+    margin:0auto;
+    background-color: ghostwhite;
+    overflow-y:scroll; 
+}
+
+
 #tamañoTabla{
     width:300px;
 }
@@ -185,12 +270,10 @@ nav{
     align-items: center;
 }
 .tituloTipos{
-    border: 2px solid purple;
     margin: 20px;
     padding: 20px;
 }
 .buscadorTipos{
-    border: 2px solid purple;
     margin: 2px;
     padding: 20px;
     display: flex;
@@ -205,14 +288,19 @@ nav{
     margin-top:30px;  
 }
 #poder{
-    width:300px;
-    height:300px;
-    margin:0 auto;
-    margin-top:30px; 
+    width: 640px;
+    height: 500px;
+    margin: 0 auto;
+     margin-top: 30px; 
+     margin-left: -70px; 
+    background-color: white;
+    overflow-y: scroll;
+    padding: 30px;
 }
 
+
+
 .sectionGuerrero{
-    border: 3px solid blue;
     display: flex;
     justify-content: center;
     flex-direction: column; 
@@ -245,6 +333,38 @@ nav{
     padding: 20px;
     box-sizing: border-box;
     
+}
+
+#palabraMenu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#palabraMenuTipo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#031A97;
+    font-size: 20px;
+}
+
+#tituloSecundario{
+    margin:0 auto;
+}
+
+table, th, td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#031A97;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -325,3 +445,5 @@ nav{
     border-radius: 50%;
     line-height: 25px;
 }
+
+
