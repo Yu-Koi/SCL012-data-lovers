@@ -21,3 +21,14 @@ export function filtrarPorDebilidades(eleccionDecaracteristica) {
   }
   return resultado;
 }
+
+export function buscarPokemonPorNombre(nameEntered) {
+  let nameSearched = []; // se crea un arreglo vacio 
+      for (let i= 0; i < POKEMON.length; i++) {
+          // recorrer para que vaya comparando el name y si es igual al introducido retorne true
+          if (POKEMON[i].name === nameEntered) {
+              nameSearched.push(POKEMON[i]); // al arreglo vacio se le agrega el arreglo del pokemon
+          }  
+      }
+      return buscarPokemonPorNombre;
+    }
